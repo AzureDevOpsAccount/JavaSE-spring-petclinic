@@ -50,7 +50,7 @@ stages:
     pool:
          name: Linux-Pool
          demands:
-         - agent.name -equals buildagentlinux
+          - agent.name -equals buildagentlinux
  
     strategy:
       runOnce:
